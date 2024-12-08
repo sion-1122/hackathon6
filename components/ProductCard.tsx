@@ -6,7 +6,6 @@ import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 
 export interface Product {
-  id: string
   name: string
   description: string
   price: number
@@ -45,7 +44,7 @@ export function ProductCard({
         <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-opacity duration-300 flex flex-col items-center justify-center gap-2">
           <Button 
             className="opacity-0 group-hover:opacity-100 transition-opacity duration-300" 
-            onClick={() => onAddToCart?.(product.id)}
+            onClick={() => onAddToCart?.(product.name)}
           >
             <ShoppingCart className="mr-2 h-4 w-4" />
             Add to cart
@@ -54,7 +53,7 @@ export function ProductCard({
             <Button
               variant="secondary"
               size="icon"
-              onClick={() => onShare?.(product.id)}
+              onClick={() => onShare?.(product.name)}
             >
               <Share2 className="h-4 w-4" />
               <span className="sr-only">Share</span>
@@ -62,7 +61,7 @@ export function ProductCard({
             <Button
               variant="secondary"
               size="icon"
-              onClick={() => onCompare?.(product.id)}
+              onClick={() => onCompare?.(product.name)}
             >
               <Scale className="h-4 w-4" />
               <span className="sr-only">Compare</span>
@@ -70,7 +69,7 @@ export function ProductCard({
             <Button
               variant="secondary"
               size="icon"
-              onClick={() => onLike?.(product.id)}
+              onClick={() => onLike?.(product.name)}
             >
               <Heart className="h-4 w-4" />
               <span className="sr-only">Like</span>
