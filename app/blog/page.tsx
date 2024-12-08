@@ -8,7 +8,7 @@ const BlogLayout = () => {
       title: "Going all-in with millennial design",
       category: "Wood",
       date: "14 Oct 2022",
-      image: "https://via.placeholder.com/600x300", // Replace with actual image
+      image: "/Rectangle 68.png", // Replace with actual image
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },
@@ -17,7 +17,7 @@ const BlogLayout = () => {
       title: "Exploring new ways of decorating",
       category: "Handmade",
       date: "14 Oct 2022",
-      image: "https://via.placeholder.com/600x300", // Replace with actual image
+      image: "/blog2.png", // Replace with actual image
       description:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
     },

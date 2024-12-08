@@ -11,16 +11,16 @@ const mid = () => {
       <h4 className="flex justify-center font-normal text-xl items-center mb-2">
         Lorem ipsum dolor sit dih wjhs didbnsi{" "}
       </h4>
-      <div className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 ">
-        <div className="text-center">
-          <Image height={480} width={381} alt="logo" src="/midpic.png" />
+      <div className="grid grid-cols-1 gap-2 md:grid-cols-2 lg:grid-cols-3 border-r-8 ">
+        <div className="text-center border-r-8">
+          <Image height={480} width={381} alt="logo" src="/midpic.png"  />
           <p className="font-semibold text-2xl  mt-8">Dining</p>
         </div>
-        <div className="text-center">
+        <div className="text-center border-r-8">
           <Image height={480} width={381} alt="logo" src="/midimg2.png" />
           <p className="font-semibold text-2xl  mt-8">Living</p>
         </div>
-        <div className="text-center">
+        <div className="text-center border-r-8">
           <Image height={480} width={381} alt="logo" src="/midimg3.png" />
           <p className="font-semibold text-2xl mt-8">Bedroom</p>
         </div>

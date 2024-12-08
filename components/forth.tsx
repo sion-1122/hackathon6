@@ -8,7 +8,7 @@ export const products = [
     name: "Syltherine",
     description: "Stylish cafe chair",
     price: "Rp 2.500.000",
-    image: "/for1.png",
+    image: "/image 3.png",
   },
   {
     name: "Lolito",
@@ -20,26 +20,26 @@ export const products = [
     name: "Respira",
     description: "Outdoor bar table and stool",
     price: "Rp 500.000",
-    image: "/for3.png",
+    image: "/image 3.png",
   },
   {
     name: "Grifo",
     description: "Night lamp",
     price: "Rp 1.500.000",
-    image: "/for5.png",
+    image: "/image 4.png",
   },
   {
     name: "Muggo",
     description: "Small mug",
     price: "Rp 150.000",
 
-    image: "/for6.png",
+    image: "/Image 5.png",
   },
   {
     name: "Pingky",
     description: "Cute bed set",
     price: "Rp 7.000.000",
-    image: "/for7.png",
+    image: "/image 3.png",
   },
 ];
 

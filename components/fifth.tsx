@@ -17,25 +17,25 @@ interface RoomImage {
 
 const rooms: RoomImage[] = [
   {
-    src: "/for1.png",
+    src: "/Rectangle 24.png",
     alt: "Bedroom with minimal design",
     category: "Bed Room",
     title: "Inner Peace"
   },
   {
-    src: "/for1.png",
+    src: "/Rectangle 25.png",
     alt: "Modern living room",
     category: "Living Room",
     title: "Modern Comfort"
   },
   {
-    src: "/for1.png",
+    src: "/Rectangle 24.png",
     alt: "Minimalist dining room",
     category: "Dining Room",
     title: "Elegant Dining"
   },
   {
-    src: "/for1.png",
+    src: "/Rectangle 25.png",
     alt: "Cozy bedroom setup",
     category: "Bed Room",
     title: "Cozy Dreams"

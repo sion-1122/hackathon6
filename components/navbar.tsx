@@ -13,6 +13,7 @@ import { Menu } from "lucide-react";
 
 export const Navbar = () => {
   return (
+    
     <nav className="w-full border-b-2 border-gray-300 p-4 ">
       <div className="max-w-7xl mx-auto w-full  flex justify-between">
         <div className="flex items-center gap-2 ">
@@ -62,17 +63,17 @@ export const Navbar = () => {
               <SheetTitle>Furniro</SheetTitle>
             </SheetHeader>
             <div className=" flex flex-col gap-4 mt-6">
-              <a href={"#"} className="text-md font-normal">
+              <a href={"/"} className="text-md font-normal">
                 Home
               </a>
-              <a href={"#"} className="text-md font-normal">
+              <a href={"/shop"} className="text-md font-normal">
                 Shop
               </a>
-              <a href={"#"} className="text-md font-normal">
-                About
+              <a href={"/blog"} className="text-md font-normal">
+                Blog
               </a>
 
-              <a href={"#"} className="text-md font-normal">
+              <a href={"/contact"} className="text-md font-normal">
                 Contact
               </a>
 
