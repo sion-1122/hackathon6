@@ -83,7 +83,7 @@ const page = () => {
               />
               <textarea
                 placeholder="Additional information"
-                rows="4"
+                rows={4}
                 className="border border-gray-300 rounded-lg p-3 focus:outline-none focus:ring focus:ring-blue-300 w-full"
               />
             </form>
